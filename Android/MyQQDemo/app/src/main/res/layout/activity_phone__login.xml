@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9f9fb"
+    tools:context="com.example.dada.myqqdemo.Phone_Login">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#3eadec"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3eadec">
+        <TextView
+            android:id="@+id/phone_login_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="13dp"
+            android:textSize="23sp"
+            android:textColor="#ffffff"
+            android:text="返回"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/phonr_login_checkPhoneText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="验证手机号码"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:background="#3eadec"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#eeeef1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+        <TextView
+            android:id="@+id/phone_login_china"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:textColor="#3eadec"
+            android:text="中国+86"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:background="#eeeef1"/>
+
+        <EditText
+            android:id="@+id/phone_login_phoneNumber"
+            android:layout_width="0dp"
+            android:layout_weight="0.75"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textColorHint="#808080"
+            android:hint="请输入你的手机号码"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/phone_login_nextStep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp"
+        android:textSize="21sp"
+        android:textColor="#c0c0c0"
+        android:text="下一步"
+        android:background="#e9ebec"/>
+</LinearLayout>

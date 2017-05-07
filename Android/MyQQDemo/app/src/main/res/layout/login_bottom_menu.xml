@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_bottom_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/login_bottom_menu_findPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:text="找回密码"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d9dadc"/>
+
+    <Button
+        android:id="@+id/login_bottom_menu_messageLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:text="短信验证登陆"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:background="#d9dadc"/>
+
+    <Button
+        android:id="@+id/login_bottom_menu_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:text="取消"/>
+
+</LinearLayout>
